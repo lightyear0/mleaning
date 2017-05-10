@@ -31,3 +31,13 @@ for i in arr[1:]:
     pos +=1
     
 print (ret)
+
+
+'''
+
+using XOR
+
+We can also solve this problem by taking XOR of all array elements with numbers from 1 to n-1. Since same elements will 
+cancel out each other as a^a = 0, 0^0 = 0 and a^0 = a, we will be left with the duplicate element.
+
+'''

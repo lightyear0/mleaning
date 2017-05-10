@@ -50,3 +50,15 @@ for  num in  arr:
     pos += 1
     
 
+
+'''
+
+Using multimap to print all subarrays
+
+ 
+
+We can use multimap to print all sub-arrays with 0 sum present in the given array. The idea is to create an empty multi-map 
+to store ending index of all sub-arrays having given sum. We traverse the given array, and maintain sum of elements seen so far. 
+If sum is seen before, there exists at-least one sub-array with 0 sum which ends at current index and we print all such sub-arrays.
+
+'''

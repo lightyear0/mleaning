@@ -31,3 +31,8 @@ for _ in range(a_len-zero_count):
     arr.append(1)
     
 print (arr)
+
+
+'''
+Simple solution would be to count number of 0’s present in the array (say k) and fill first k indexes in the array by 0 and all remaining indexes by 1.
+'''
